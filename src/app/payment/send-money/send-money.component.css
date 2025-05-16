@@ -1,0 +1,38 @@
+mat-form-field {
+    display: block;
+}
+
+.card-title {
+    color: #646464;
+    margin: 1em auto;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+h2 {
+    margin: 1em auto;
+}
+
+mat-error {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+button {
+    margin: 1em auto;
+}
+
+.close {
+    align-self: flex-end;
+}

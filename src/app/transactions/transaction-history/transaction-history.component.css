@@ -1,0 +1,24 @@
+.text-success {
+    color: green;
+    font-weight: bold;
+}
+
+.text-failed {
+    color: red;
+    font-weight: bold;
+}
+
+mat-form-field {
+    min-width: 200px;
+}
+
+mat-card {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1em
+}

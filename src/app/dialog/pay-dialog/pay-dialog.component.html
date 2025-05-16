@@ -1,0 +1,38 @@
+<mat-card>
+  <mat-card-content>
+    <form #loginForm="ngForm" (ngSubmit)="sendMoney()">
+      <h4 class="card-title">Send Money</h4>
+
+      <mat-form-field>
+        <mat-label>Recepient Upi ID</mat-label>
+        <input matInput placeholder="UPI ID" [(ngModel)]="upiId" name="upiId" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Amount</mat-label>
+        <input
+          matInput
+          type="number"
+          placeholder="Amount"
+          [(ngModel)]="amount"
+          name="amount"
+        />
+      </mat-form-field>
+      <mat-form-field [style.fontSize]="fontSize">
+        <!-- <mat-label>Notes</mat-label> -->
+        <textarea
+          style="font-size: 10px"
+          cdkTextareaAutosize
+          #autosize="cdkTextareaAutosize"
+          cdkAutosizeMinRows="1"
+          cdkAutosizeMaxRows="5"
+          matInput
+          type="text"
+          placeholder="Notes"
+          [(ngModel)]="notes"
+          name="notes"
+        ></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary">Send</button>
+    </form>
+  </mat-card-content>
+</mat-card>

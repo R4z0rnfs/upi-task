@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "login": {
+    "username": "mock_12345",
+    "password": "12345"
+  },
+  "validate": [
+    {
+      "hashkey": "98a7bc34e1",
+      "name": "Alice Smith",
+      "active_upi": "alice@ybl",
+      "id": "dfce"
+    },
+    {
+      "hashkey": "b4d9f38c22",
+      "name": "Bob Johnson",
+      "active_upi": "bob123@ybl",
+      "id": "cf5f"
+    },
+    {
+      "hashkey": "5e87c9fa99",
+      "name": "Charlie Ray",
+      "active_upi": "charlie@ybl",
+      "id": "3837"
+    },
+    {
+      "hashkey": "f930a24d88",
+      "name": "Dana Kapoor",
+      "active_upi": "dana@okaxis",
+      "id": "5aaf"
+    }
+  ],
+  "transaction-history": [
+    {
+      "id": "94a0",
+      "date": "2025-05-10",
+      "amount": 500,
+      "recipientUpi": "alice@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "fc2e",
+      "date": "2025-05-11",
+      "amount": 250,
+      "recipientUpi": "bob@ybl",
+      "status": "Failed"
+    },
+    {
+      "id": "1d07",
+      "date": "2025-05-12",
+      "amount": 1500,
+      "recipientUpi": "carol@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "cbbf",
+      "date": "2025-05-13",
+      "amount": 700,
+      "recipientUpi": "dave@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "ct0f",
+      "date": "2025-05-09",
+      "amount": 800,
+      "recipientUpi": "dana@okaxis",
+      "status": "Success"
+    },
+    {
+      "id": "4a08",
+      "date": "2025-05-16",
+      "amount": 200,
+      "recipientUpi": "alice@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "b99b",
+      "date": "2025-05-16",
+      "amount": 20000,
+      "recipientUpi": "bob123@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "c41d",
+      "date": "2025-05-16",
+      "amount": 10000,
+      "recipientUpi": "bob123@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "15f4",
+      "date": "2025-05-16",
+      "amount": 100,
+      "recipientUpi": "ankit@ybl",
+      "status": "Success"
+    },
+    {
+      "id": "687a",
+      "date": "2025-05-16",
+      "amount": 2900,
+      "recipientUpi": "bob123@ybl",
+      "status": "Success"
+    }
+  ]
+}
